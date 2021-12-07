@@ -12,5 +12,5 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-require("posts/index")
 
+require("posts/script3")
