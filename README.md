@@ -2,7 +2,9 @@
 
 Exercices niveau débutant : jouer avec le DOM
 
-Les fichiers JS se trouvent dans <ins>app/javascript/packs<ins> et les vues HTML se trouvent dans <ins>app/views/static_pages<ins>
+Les fichiers JS se trouvent dans <ins>app/javascript/packs<ins> 
+
+Les vues HTML se trouvent dans <ins>app/views/static_pages<ins>
 
 Les exercices sont disponibles depuis l'index
 
