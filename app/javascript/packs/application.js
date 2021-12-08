@@ -13,4 +13,4 @@ Turbolinks.start()
 ActiveStorage.start()
 
 
-require("posts/script3")
+
