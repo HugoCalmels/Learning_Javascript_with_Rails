@@ -15,7 +15,7 @@ Les exercices sont disponibles depuis l'index, avec plus de détails directement
 - $ rails db:migrate 
 - $ rails server
 
-La page d'acceuil du site est sur l'url suivante :
+L'index est disponible sur l'url suivante :
 ```html
 http://localhost:3000/
 ```
