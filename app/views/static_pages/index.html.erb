@@ -1,6 +1,30 @@
 <h1>JS entrainement/exercices</h1>
 
-<%= button_to 'Entrainement', static_pages_entrainement_path, method: :get %>
-<%= button_to 'Exercice 1', static_pages_exercice1_path, method: :get  %>
-<%= button_to 'Exercice 2', static_pages_exercice2_path, method: :get  %>
+<div class="card-deck">
+
+<div class="card card-custom" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Entrainement autour du DOM</h5>
+    <p class="card-text">Résultats dans la console, et commentaires dans le fichier JS <i>app/javascript/packs/entrainement.js</p>
+    <%= button_to 'Entrainement', static_pages_entrainement_path, method: :get %>
+  </div>
+</div>
+
+<div class="card card-custom" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Exercice 1</h5>
+    <p class="card-text"> Entrainement dans la console, niveau débutant <i>app/javascript/packs/exercice1.js</p>
+    <%= button_to 'Exercice 1', static_pages_exercice1_path, method: :get  %>
+  </div>
+</div>
+
+<div class="card card-custom" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Exercice 2</h5>
+    <p class="card-text">Changement des évènements du DOM, et itérations sur les changements <i>app/javascript/packs/exercice2.js</p>
+    <%= button_to 'Exercice 2', static_pages_exercice2_path, method: :get  %>
+  </div>
+</div>
+
+</div>
 

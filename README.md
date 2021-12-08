@@ -1,24 +1,21 @@
-# README
+# Learning JS with Rails 6
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Exercices niveau débutant : jouer avec le DOM
 
-Things you may want to cover:
+Les fichiers JS se trouvent dans <ins>app/javascript/packs<ins> et les vues HTML se trouvent dans <ins>app/views/static_pages<ins>
 
-* Ruby version
+Les exercices sont disponibles depuis l'index
 
-* System dependencies
+## Si vous voulez tester
 
-* Configuration
+- $ bundle install 
+- $ rails db:create 
+- $ rails db:migrate 
+- $ rails server
 
-* Database creation
+La page d'acceuil du site est sur l'url suivante :
+```html
+http://localhost:3000/
+```
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
