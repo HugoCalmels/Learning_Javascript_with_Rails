@@ -17,3 +17,14 @@
   border: 2px solid green!important;
   width: 300px !important;
 }
+.menu ul {
+  list-style-type: none;
+  background-color:darkorange!important ;
+  width: 300px !important;
+}
+
+
+.menu-btn {
+  width: 70px !important;
+  background-color: darkorange !important;
+}

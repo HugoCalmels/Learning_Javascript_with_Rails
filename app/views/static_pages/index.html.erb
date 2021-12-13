@@ -6,23 +6,56 @@
   <div class="card-body">
     <h5 class="card-title">Entrainement autour du DOM</h5>
     <p class="card-text">Résultats dans la console, et commentaires dans le fichier JS <i>app/javascript/packs/entrainement.js</p>
-    <%= button_to 'Entrainement', static_pages_entrainement_path, method: :get %>
+    <%= button_to 'train-DOM', static_pages_dom_train_path, method: :get %>
   </div>
 </div>
 
 <div class="card card-custom" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Exercice 1</h5>
+    <h5 class="card-title">Exercice DOM 1</h5>
     <p class="card-text"> Entrainement dans la console, niveau débutant <i>app/javascript/packs/exercice1.js</p>
-    <%= button_to 'Exercice 1', static_pages_exercice1_path, method: :get  %>
+    <%= button_to 'Exercice 1', static_pages_dom_ex_1_path, method: :get  %>
   </div>
 </div>
 
 <div class="card card-custom" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Exercice 2</h5>
+    <h5 class="card-title">Exercice DOM 2</h5>
     <p class="card-text">Changement des évènements du DOM, et itérations sur les changements <i>app/javascript/packs/exercice2.js</p>
-    <%= button_to 'Exercice 2', static_pages_exercice2_path, method: :get  %>
+    <%= button_to 'Exercice 2', static_pages_dom_ex_2_path, method: :get  %>
+  </div>
+</div>
+
+
+<div class="card card-custom" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Train event</h5>
+    <p class="card-text"> </p>
+    <%= button_to 'exo event 1', static_pages_event_train_path, method: :get  %>
+  </div>
+</div>
+
+<div class="card card-custom" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Extra notes</h5>
+    <p class="card-text"> </p>
+    <%= button_to 'exo event 2', static_pages_extra_notes_path, method: :get  %>
+  </div>
+</div>
+
+<div class="card card-custom" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Exercice event 1</h5>
+    <p class="card-text"> </p>
+    <%= button_to 'exo event 1', static_pages_event_ex_1_path, method: :get  %>
+  </div>
+</div>
+
+<div class="card card-custom" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Exercice event 2</h5>
+    <p class="card-text"> </p>
+    <%= button_to 'exo event 2', static_pages_event_ex_2_path, method: :get  %>
   </div>
 </div>
 
