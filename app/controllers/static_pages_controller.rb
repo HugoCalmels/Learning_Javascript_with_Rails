@@ -21,4 +21,7 @@ class StaticPagesController < ApplicationController
   end
   def extra_notes
   end
+
+  def js_30_02
+  end
 end

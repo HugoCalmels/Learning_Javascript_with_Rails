@@ -28,3 +28,19 @@
   width: 70px !important;
   background-color: darkorange !important;
 }
+
+.boxes-container {
+  padding-left: max(300px, 15%);
+  padding-right: max(300px, 15%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+  background-image: image-url('../images/san-fransisco.png');
+}
+
+.box {
+  border: 2px solid darkgreen;
+  width: 50px;
+}
